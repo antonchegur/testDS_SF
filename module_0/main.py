@@ -16,8 +16,8 @@ def game_core_v3(predict, start, end):
     return(count) #exit the loop
 
 start = 1 #parameter for start number
-end = 101 #parameter for final number
+end = 509 #parameter for final number
 
 randomNumber = np.random.randint(start, end) #init of random number
-print ("Загадано число от 1 до 100")
+print (f"Загадано число от {start} до {end}")
 game_core_v3(randomNumber, start, end) #call our main function
